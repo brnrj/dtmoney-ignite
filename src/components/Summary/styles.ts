@@ -30,5 +30,10 @@ export const Container = styled.div`
       background: var(--green);
       color: #fff;
     }
+
+    &.negative-highlight {
+      background: var(--red);
+      color: #fff;
+    }
   }
 `

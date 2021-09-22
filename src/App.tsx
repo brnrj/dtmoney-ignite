@@ -4,7 +4,7 @@ import { Dashboard } from "./components/Dashboard";
 import Modal from 'react-modal';
 import { GlobalStyle } from "./styles/global";
 import { NewTransactionModal } from "./components/NewTransactionModal";
-import { TransactionProvider } from "./TransactionsContext";
+import { TransactionProvider } from "../src/hooks/useTransactions";
 
 Modal.setAppElement('#root');
 
